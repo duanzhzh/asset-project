@@ -28,7 +28,7 @@
   - [x] components -- 共用子组件
   - [x] containers -- 组件
   - [x] fetch -- 网络请求
-  - [x] reducers -- reducers模块
+  - [x] reducers -- store data 模块
   - [x] sagas -- reducers异步数据模块
   - [x] scss -- 共用样式
 - [x] package.json -- 项目配置文件
