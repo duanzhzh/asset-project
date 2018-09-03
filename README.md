@@ -19,7 +19,7 @@
 - [x] fetch
 - [x] webpack
 
-## 项目目录结构说明
+## 项目目录
 - [x] build -- 存放编译后的静态文件
 - [x] config -- webpack相关的配置
 - [x] public -- 存放模板文件
