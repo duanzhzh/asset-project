@@ -24,6 +24,12 @@
 - [x] public -- 存放模板文件
 - [x] script  -- node 执行脚本
 - [x] src -- 项目相关的文件
+  - [x] components -- 共用子组件
+  - [x] containers -- 组件
+  - [x] fetch -- 网络请求
+  - [x] reducers -- reducers模块
+  - [x] sagas -- reducers异步数据模块
+  - [x] scss -- 共用样式
 - [x] package.json -- 项目配置文件
 - [x] README.md -- 项目说明
 
