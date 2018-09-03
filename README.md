@@ -31,6 +31,8 @@
   - [x] reducers -- store data 模块
   - [x] sagas -- reducers异步数据模块
   - [x] scss -- 共用样式
+  - [x] App.js -- route manage 、public modules import
+  - [x] index.js -- 项目入口文件
 - [x] package.json -- 项目配置文件
 - [x] README.md -- 项目说明
 
