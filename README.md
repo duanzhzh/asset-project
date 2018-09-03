@@ -23,7 +23,8 @@
 - 根据设计稿开发UI……
 
 ## 代码规范
-项目代码规范严格遵守 [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+- 项目代码语法采用ES6+ES7标准；
+- 项目代码风格规范严格遵守 [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 
 ## 打包
 为了便于部分页面可能使用在APP上和小程序上
