@@ -1,0 +1,109 @@
+
+@import "variables";
+@import "mixins";
+
+.hide {
+  display: none !important;
+}
+
+.c-base {
+  color: $color-base;
+}
+
+.c-999 {
+  color: $gray-light;
+}
+
+.c-red {
+  color: $yjwd-red-secondary;
+}
+
+.pb-3 {
+  padding-bottom: 3px;
+}
+
+// text-align
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// margin-bottom
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.pAll {
+  padding: 10px;
+}
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pr-10-i {
+  padding-right: 10px !important;
+}
+
+// height
+.height500 {
+  height: 500px;
+}
+.height188 {
+  height: 188px;
+}
+.height302 {
+  height: 302px;
+}
+.height250 {
+  height: 250px;
+}
+
+// float
+.floatLeft {
+  float: left;
+}
+.floatRight {
+  float: right;
+}
+
+.marginAuto {
+  margin: auto;
+}

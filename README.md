@@ -18,6 +18,15 @@
 - [x] fetch
 - [x] webpack
 
+## 项目目录结构说明
+- [x] build -- 存放编译后的静态文件
+- [x] config -- webpack相关的配置
+- [x] public -- 存放模板文件
+- [x] script  -- node 执行脚本
+- [x] src -- 项目相关的文件
+- [x] package.json -- 项目配置文件
+- [x] README.md -- 项目说明
+
 ## Todo
 - 根据设计稿设计Redux数据结构……
 - 根据设计稿开发UI……
