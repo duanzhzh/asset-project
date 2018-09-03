@@ -9,6 +9,7 @@
 - [x] 资讯频道
 - [x] 榜单频道
 - [x] 个人中心
+- [详情见WIKI](https://github.com/duanzhzh/commercial-asset-project/wiki/%E9%A1%B9%E7%9B%AE%E6%A8%A1%E5%9D%97%E5%88%86%E8%A7%A3)
 
 ## 技术栈
 - [x] react
