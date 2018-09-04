@@ -20,6 +20,7 @@
 - [x] webpack
 - [x] antd-design-mobile
 - [x] echart
+- [x] react-bmap
 
 ## 项目目录
 - [x] build -- 存放编译后的静态文件
