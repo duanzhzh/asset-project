@@ -18,7 +18,7 @@
 - [x] redux-saga
 - [x] fetch
 - [x] webpack
-- [x] ant-design-mobile
+- [x] antd-design-mobile
 - [x] echart
 
 ## 项目目录
