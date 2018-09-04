@@ -18,6 +18,8 @@
 - [x] redux-saga
 - [x] fetch
 - [x] webpack
+- [x] ant-design-mobile
+- [x] echart
 
 ## 项目目录
 - [x] build -- 存放编译后的静态文件
