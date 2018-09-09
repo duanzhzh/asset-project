@@ -1,38 +1,8 @@
-import config from './config.json';
+import {PREFIX} from '../config/env';
 
-/**
- * Created by summer on 2018/7/12.
- */
-/**
- * API urls configuration
- */
-let prefix = '';
-/**
- * 获取图片的前缀
- */
-let imgUrl = '';
-switch (process.env.ENV) {
-  case 'dev':
-    // prefix = 'http://test.api.whartonehouse.com/api';
-    // imgUrl = 'http://testbd.www.whartonehouse.com/uploads/';
-    prefix = 'http://api.whartonehouse.com/api';
-    imgUrl = 'http://admin.whartonehouse.com/uploads/';
-    break;
-  case 'build': //build
-    prefix = 'http://api.whartonehouse.com/api';
-    imgUrl = 'http://admin.whartonehouse.com/uploads/';
-    break;
-  case 'build_dev': //dev build
-    prefix = 'http://test.api.whartonehouse.com/api';
-    imgUrl = 'http://testbd.www.whartonehouse.com/uploads/';
-    break;
-  default:  //pre build 
-    prefix = 'http://pre.api.whartonehouse.com/api';
-    imgUrl = 'http://pre.admin.whartonehouse.com/uploads/';
-}
 
 export const api = {
-  TEACHER_LIST: prefix + '/teacher/list', //导师/教授列表
+  TEACHER_LIST: PREFIX + '/teacher/list', //导师/教授列表
 };
 /**
  * Simplify the rest parameters creation, e.g:
@@ -73,5 +43,3 @@ export const numberOfRestParams = function (url) {
     ? matched.length
     : 0;
 };
-
-export {prefix, imgUrl}
